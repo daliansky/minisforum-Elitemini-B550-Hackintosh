@@ -1,7 +1,7 @@
 # minisforum-B550-Hackintosh
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.4%2021F79-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.6%2020G624-informational.svg)](https://www.apple.com/macos)
 
-
+[![B550_taobao](Screenshots/B550_taobao.png)](https://hackintosher.taobao.com)
 
 ## 电脑配置
 
