@@ -20,4 +20,14 @@
 | 无线网卡  | m.2 NGFF插槽，默认出厂为 `Mediatek RZ608` 已更换为[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 有线网卡1 |               Intel Ethernet Controller I225-V               |
 
+## 更新日志
+
+- 8-17-2022
+  - 修复睡眠唤醒
+  - 驱动`Intel I225-V`
+
 ![R7-5700G_Monterey_12.4](Screenshots/R7-5700G_Monterey_12.4.png)
+
+![MinisForum-B550-Intel-I225-V](Screenshots/MinisForum-B550-Intel-I225-V.png)
+
+![MinisForum-B550-iTerm](Screenshots/MinisForum-B550-iTerm.png)
