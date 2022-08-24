@@ -570,9 +570,9 @@
                 <key>DummyPowerManagement</key>
                 <true/>
                 <key>MaxKernel</key>
-                <string></string>
+                <string>18.99.99</string>
                 <key>MinKernel</key>
-                <string></string>
+                <string>18.00.00</string>
             </dict>
             <key>Force</key>
             <array/>
@@ -602,7 +602,7 @@
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
-                    <data>uAYAAAAA</data>
+                    <data>uAgAAAAA</data>
                     <key>ReplaceMask</key>
                     <data>//////8A</data>
                     <key>Skip</key>
@@ -632,7 +632,7 @@
                     <key>MinKernel</key>
                     <string>19.0.0</string>
                     <key>Replace</key>
-                    <data>ugYAAAAA</data>
+                    <data>uggAAAAA</data>
                     <key>ReplaceMask</key>
                     <data>//////8A</data>
                     <key>Skip</key>
@@ -662,7 +662,7 @@
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
-                    <data>ugYAAACQ</data>
+                    <data>uggAAACQ</data>
                     <key>ReplaceMask</key>
                     <data>////////</data>
                     <key>Skip</key>
@@ -1569,7 +1569,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>swd_panic=1 e1000=0 keepsyms=1 npci=0x2000 alcid=11</string>
+                    <string>swd_panic=1 e1000=0 keepsyms=1 npci=0x2000 alcid=11 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
