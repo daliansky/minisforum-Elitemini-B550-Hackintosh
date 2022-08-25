@@ -8,7 +8,7 @@
 
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
-| 电脑型号  |                       minisforum B550                        |
+| 电脑型号  |                       minisforum Elitemini B550                        |
 | 操作系统  | macOS `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
 |  处理器   |                 AMD 锐龙 R7-5700G 8核16线程                  |
 |   内存    |                      32 GB DDR4 3200MHz                      |
