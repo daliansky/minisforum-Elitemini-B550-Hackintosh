@@ -1,4 +1,4 @@
-# minisforum-B550-Hackintosh
+# minisforum-Elitemini-B550-Hackintosh
 
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.5.1%2021G83-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.6.8%2020G730-informational.svg)](https://www.apple.com/macos)
 
