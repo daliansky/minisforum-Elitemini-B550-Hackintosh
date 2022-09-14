@@ -38,6 +38,14 @@
                     <key>Path</key>
                     <string>SSDT-APU-DISABLE.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-I225V.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -153,10 +161,10 @@
                 <dict>
                     <key>#Intel I225-V</key>
                     <string>Intel I225-V网卡内建及仿冒信息</string>
+                    <key>#device-id</key>
+                    <data>8hUAAA==</data>
                     <key>built-in</key>
                     <data>AQAAAA==</data>
-                    <key>device-id</key>
-                    <data>8hUAAA==</data>
                     <key>model</key>
                     <string>Intel I225-V Gigabit Ethernet Controller</string>
                 </dict>
@@ -348,7 +356,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.5 | AppleALC.kext</string>
+                    <string>V1.7.6 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1278,6 +1286,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>CleanNvram</string>
                     <key>Path</key>
@@ -1298,6 +1308,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>TpmInfo</string>
                     <key>Path</key>
@@ -1318,6 +1330,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>ControlMsrE2</string>
                     <key>Path</key>
@@ -1338,6 +1352,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>BootKicker</string>
                     <key>Path</key>
@@ -1358,6 +1374,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>ChipTune</string>
                     <key>Path</key>
@@ -1378,6 +1396,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>GopStop</string>
                     <key>Path</key>
@@ -1398,6 +1418,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>CsrUtil</string>
                     <key>Path</key>
@@ -1418,6 +1440,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>OpenControl</string>
                     <key>Path</key>
@@ -1438,6 +1462,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>ResetSystem</string>
                     <key>Path</key>
@@ -1458,6 +1484,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>RtcRw</string>
                     <key>Path</key>
@@ -1478,6 +1506,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>KeyTester</string>
                     <key>Path</key>
@@ -1498,6 +1528,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>CFGLock</string>
                     <key>Path</key>
@@ -1518,6 +1550,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>modGRUBShell</string>
                     <key>Path</key>
@@ -1538,6 +1572,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>OpenShell</string>
                     <key>Path</key>
@@ -1569,11 +1605,11 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>swd_panic=1 e1000=0 keepsyms=1 npci=0x2000 alcid=11</string>
+                    <string>swd_panic=1 e1000=0 keepsyms=1 npci=0x2000 alcid=11 -lilubetaall</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
-                    <string></string>
+                    <string>en-US:0</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -1636,7 +1672,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K108303QXK3F7AD</string>
+                <string>F5K0257014NK3F71F</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1650,9 +1686,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KF97YRP7QM</string>
+                <string>F5KCW02LP7QM</string>
                 <key>SystemUUID</key>
-                <string>129CFFB2-0F67-4D4D-B2DE-0519A7D5007F</string>
+                <string>F177E312-14FB-4EEF-BAB0-B78FB6432645</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1781,6 +1817,18 @@
                     <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>CrScreenshotDxe.efi</string>
                 </dict>
             </array>
             <key>Input</key>

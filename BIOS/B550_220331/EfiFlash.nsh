@@ -1,0 +1,1 @@
+AfuEfix64.efi B550.rom /p /b /n /k /reboot
