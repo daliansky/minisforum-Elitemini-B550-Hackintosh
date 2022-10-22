@@ -1128,7 +1128,7 @@
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapper</key>
                 <false/>
                 <key>DisableLinkeditJettison</key>
@@ -1253,7 +1253,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>j160</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1373,9 +1373,9 @@
                     <key>FullNvramAccess</key>
                     <false/>
                     <key>Name</key>
-                    <string>ResetSystem</string>
+                    <string>CleanNvram</string>
                     <key>Path</key>
-                    <string>ResetSystem.efi</string>
+                    <string>CleanNvram.efi</string>
                     <key>RealPath</key>
                     <true/>
                     <key>TextMode</key>
@@ -1395,9 +1395,9 @@
                     <key>FullNvramAccess</key>
                     <false/>
                     <key>Name</key>
-                    <string>CleanNvram</string>
+                    <string>ResetSystem</string>
                     <key>Path</key>
-                    <string>CleanNvram.efi</string>
+                    <string>ResetSystem.efi</string>
                     <key>RealPath</key>
                     <true/>
                     <key>TextMode</key>
@@ -1427,7 +1427,7 @@
                     <key>boot-args</key>
                     <string>swd_panic=1 e1000=0 keepsyms=1 npci=0x2000 alcid=11 -lilubetaall</string>
                     <key>csr-active-config</key>
-                    <data>/w8AAA==</data>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
                     <string>en-US:0</string>
                     <key>run-efi-updater</key>
@@ -1492,7 +1492,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K224501CDK3F78C</string>
+                <string>F5K1183034NK3F7AD</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1506,9 +1506,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KHV2YWP7QM</string>
+                <string>F5KFNCZ9P7QM</string>
                 <key>SystemUUID</key>
-                <string>15037023-B199-4001-A145-72A9A9B1A1FA</string>
+                <string>FD3A9D51-1809-4DBC-A1BE-1C0252CF802D</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1517,7 +1517,7 @@
             <key>UpdateSMBIOS</key>
             <true/>
             <key>UpdateSMBIOSMode</key>
-            <string>Create</string>
+            <string>Custom</string>
             <key>UseRawUuidEncoding</key>
             <false/>
         </dict>
@@ -1649,6 +1649,18 @@
                     <false/>
                     <key>Path</key>
                     <string>CrScreenshotDxe.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>ResetNvramEntry.efi</string>
                 </dict>
             </array>
             <key>Input</key>

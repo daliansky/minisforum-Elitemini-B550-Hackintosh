@@ -1,6 +1,6 @@
 # minisforum-Elitemini-B550-Hackintosh
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.6%2021G115-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.7%2020G817-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.6%2021G115-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.7%2020G817-informational.svg)](https://www.apple.com/macos)
 
 [![B550_taobao](Screenshots/B550_taobao.png)](https://hackintosher.taobao.com)
 
@@ -23,10 +23,13 @@
 
 ## 更新日志
 
+- 10-22-2022
+  - 更新 `OpenCore` `v0.8.5`
+  
 - 9-14-2022
   - 更新 `OpenCore` `v0.8.4`
   - 更新 `SSDT-I225V` ，支持 `Ventura`
-  
+
 - 8-17-2022
   - 修复睡眠唤醒
   - 驱动`Intel I225-V`
